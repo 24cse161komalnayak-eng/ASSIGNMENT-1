@@ -1,0 +1,7 @@
+F1= open("file.txt","r")
+F2= open("file3.txt","w")
+data=F1.read()
+F2.write(data)
+F1.close()
+F2.close()
+print("content copied successfully")
